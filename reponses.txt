@@ -1,0 +1,12 @@
+Django utilise le patron modèle vue template;le modèle gère les fonctions et les données,
+la vue reçoit et renvoie les requêtes,le template génère l'html.
+
+
+    Création d'un nouveau projet  :   django-admin startproject projet
+    Création d'une nouvelle application  :  python manage.py startapp app
+    Création d'un super utilisateur :   python manage.py createsuperuser
+    Activation du serveur web local :   python manage.py runserver 
+    Migration des données (2 commandes)  :   python manage.py makemigrations polls
+						python manage.py migrate 
+
+
